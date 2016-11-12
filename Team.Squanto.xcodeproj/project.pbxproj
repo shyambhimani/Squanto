@@ -14,6 +14,8 @@
 		2DF654161DD6A00B0036BF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF654141DD6A00B0036BF79 /* LaunchScreen.storyboard */; };
 		2DF654211DD6A00B0036BF79 /* Team_SquantoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF654201DD6A00B0036BF79 /* Team_SquantoTests.swift */; };
 		2DF6542C1DD6A00B0036BF79 /* Team_SquantoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF6542B1DD6A00B0036BF79 /* Team_SquantoUITests.swift */; };
+		2DF6543D1DD6A6AC0036BF79 /* CircButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF6543C1DD6A6AC0036BF79 /* CircButton.swift */; };
+		2DF654401DD6B0980036BF79 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2DF6543F1DD6B0980036BF79 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2DF654271DD6A00B0036BF79 /* Team.SquantoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Team.SquantoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF6542B1DD6A00B0036BF79 /* Team_SquantoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team_SquantoUITests.swift; sourceTree = "<group>"; };
 		2DF6542D1DD6A00B0036BF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF6543C1DD6A6AC0036BF79 /* CircButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircButton.swift; sourceTree = "<group>"; };
+		2DF6543F1DD6B0980036BF79 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,10 @@
 		2DF6540A1DD6A00B0036BF79 /* Team.Squanto */ = {
 			isa = PBXGroup;
 			children = (
+				2DF6543E1DD6AEE10036BF79 /* Resources */,
+				2DF6543B1DD6A6770036BF79 /* Controller */,
+				2DF6543A1DD6A65D0036BF79 /* View */,
+				2DF654391DD6A6510036BF79 /* Model */,
 				2DF6540B1DD6A00B0036BF79 /* AppDelegate.swift */,
 				2DF6540D1DD6A00B0036BF79 /* ViewController.swift */,
 				2DF6540F1DD6A00B0036BF79 /* Main.storyboard */,
@@ -123,6 +131,36 @@
 				2DF6542D1DD6A00B0036BF79 /* Info.plist */,
 			);
 			path = Team.SquantoUITests;
+			sourceTree = "<group>";
+		};
+		2DF654391DD6A6510036BF79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DF6543A1DD6A65D0036BF79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6543C1DD6A6AC0036BF79 /* CircButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2DF6543B1DD6A6770036BF79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2DF6543E1DD6AEE10036BF79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DF6543F1DD6B0980036BF79 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +231,7 @@
 				TargetAttributes = {
 					2DF654071DD6A00B0036BF79 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LUXXN9ZCLC;
 						ProvisioningStyle = Automatic;
 					};
 					2DF6541B1DD6A00B0036BF79 = {
@@ -232,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF654401DD6B0980036BF79 /* test.m4a in Resources */,
 				2DF654161DD6A00B0036BF79 /* LaunchScreen.storyboard in Resources */,
 				2DF654131DD6A00B0036BF79 /* Assets.xcassets in Resources */,
 				2DF654111DD6A00B0036BF79 /* Main.storyboard in Resources */,
@@ -259,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF6543D1DD6A6AC0036BF79 /* CircButton.swift in Sources */,
 				2DF6540E1DD6A00B0036BF79 /* ViewController.swift in Sources */,
 				2DF6540C1DD6A00B0036BF79 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUXXN9ZCLC;
 				INFOPLIST_FILE = Team.Squanto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NPU.Team-Squanto";
@@ -424,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LUXXN9ZCLC;
 				INFOPLIST_FILE = Team.Squanto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NPU.Team-Squanto";
@@ -505,6 +548,7 @@
 				2DF654321DD6A00B0036BF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF654331DD6A00B0036BF79 /* Build configuration list for PBXNativeTarget "Team.SquantoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +557,7 @@
 				2DF654351DD6A00B0036BF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DF654361DD6A00B0036BF79 /* Build configuration list for PBXNativeTarget "Team.SquantoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +566,7 @@
 				2DF654381DD6A00B0036BF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
